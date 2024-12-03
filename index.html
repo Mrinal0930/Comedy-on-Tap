@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comedy on Tap</title>
+    <link rel="shortcut icon" href="dumbass_stare.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <button class="copy-btn" id="copy-joke">
+        <i class="fas fa-copy" id="copy-icon"></i>
+      </button>
+      <h1 class="title" id="joke-title">Comedy on Tap</h1>
+      <div class="result" id="joke-result">
+        <div class="loader" id="loader"></div>
+        <h2 id="joke-setup"></h2>
+        <p id="joke-punchline"></p>
+      </div>
+      <div class="actions">
+        <button class="choice" id="get-joke">Tap to Laugh</button>
+        <button class="choice" id="toggle-mode">
+          <i class="fas fa-moon" id="toggle-icon"></i>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
